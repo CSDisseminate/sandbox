@@ -39,11 +39,12 @@ Repo for new users to try out different GitHub actions
 6. Go to the GitHub Desktop app; you will see which files have been changed in the repo
    - To commit the changes, write a summary message (e.g., "Add title to plot") and then click "Commit to edit-figure"
    - To push the changes to the cloud, click on "Push origin"
-7. Once you are happy with your changes, you can merge your changes in the "edit-figure" branch back into the "main" branch
+7. Once you are happy with your changes, you can request for your changes to be merged back into the "main" branch
    - In the GitHub Desktop app:
-      - Set the "Current Branch" to "main"
-      - Click on "Branch" in the top menu and select "Merge into Current Branch..."
-      - Select "edit-figure" and "Create a merge commit"
-      - To push the changes to the cloud, click on "Push origin"
-      - You can then delete the "edit-figure" branch
+      - Click on "Branch" in the top menu and select "Create Pull Request"
+         - The pull request form will launch in the browser, where you can review your changes, write a summary, and request someone to review your changes
+   - In the browser:      
+         - Fill in the details, request elainekearney or micah-hirsch to reivew your request, and click "Create pull request"
+            - This will send an email to the reviewer, who will check the changes and then approve them or suggest additional edits
+      -    Once approved, merge the changes and delete the "edit-figure" branch
 
