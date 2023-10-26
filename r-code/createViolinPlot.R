@@ -19,7 +19,7 @@ set.seed(3)
 
 # violin plot code
 ggplot(scores, aes(dummy, tpost_cat_read_total)) +
-  geom_violin(fill = "grey80", trim = FALSE, size = 1) +
+  geom_violin(fill = "blue", trim = FALSE, size = 1) +
   geom_jitter(size = 2) +
   theme_classic(base_size = 16) +
   theme(
