@@ -4,14 +4,18 @@ Repo for new users to try out different GitHub actions
 ## Prerequisites
 1. Create a GitHub account
 2. Download the [GitHub Desktop App](https://desktop.github.com/)
-3. In the Desktop app:
+## Fork and clone the repo
+
+1. On the [GitHub website](https://github.com/open-csd/sandbox/), create a fork of the open-csd/sandbox repo
+2. In the Desktop app:
    - Login to GitHub
    - Click on "Clone a Repository from the Internet"
    - Select the URL tab
-   - Specify the username/repository as _open-csd/sandbox_
+   - Specify the username/repository as _[your-username]/sandbox_
    - Specify the local path as the folder on your computer where you want the repo to live
    - Click "Clone"
-   
+
+
 ## Task 1: Add an intro file
 1. Go to the _sandbox_ repo on your computer
 2. In the intros subfolder, copy the template.md file
@@ -21,7 +25,7 @@ Repo for new users to try out different GitHub actions
 5. Go to the GitHub Desktop app; you will see which files have been changed in the repo
    - To commit the changes, write a summary message (e.g., "Create intro file") and then click "Commit to main"
    - To push the changes to the cloud, click on "Push origin"
-      - These changes will now be visible on the [GitHub website](https://github.com/open-csd/sandbox)
+      - These changes will now be visible on your fork of the repo on the GitHub website
 
 ## Task 2: Practice branching and edit existing R code
 1. Go to the Desktop app:
@@ -39,12 +43,12 @@ Repo for new users to try out different GitHub actions
 6. Go to the GitHub Desktop app; you will see which files have been changed in the repo
    - To commit the changes, write a summary message (e.g., "Add title to plot") and then click "Commit to edit-figure"
    - To push the changes to the cloud, click on "Push origin"
-7. Once you are happy with your changes, you can request for your changes to be merged back into the "main" branch
+7. Once you are happy with your changes, you can request for your changes to be merged back into the "main" branch of your repo or the open-csd repo
    - In the GitHub Desktop app:
       - Click on "Branch" in the top menu and select "Create Pull Request"
          - The pull request form will launch in the browser, where you can review your changes, write a summary, and request someone to review your changes
    - In the browser:
-      - Fill in the details, request elainekearney or micah-hirsch to reivew your request, and click "Create pull request"
-         - This will send an email to the reviewer, who will check the changes and then approve them or suggest additional edits
-      -    Once approved, merge the changes and delete the "edit-figure" branch
+      - Fill in the details and click "Create pull request"
+         - If you wish to merge your changes back into the open-csd repo, request elainekearney or micah-hirsch to reivew your request; this will send an email to the reviewer, who will check the changes and then approve them or suggest additional edits
+      - Once approved, merge the changes and delete the "edit-figure" branch
 
