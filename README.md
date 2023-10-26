@@ -4,14 +4,17 @@ Repo for new users to try out different GitHub actions
 ## Prerequisites
 1. Create a GitHub account
 2. Download the [GitHub Desktop App](https://desktop.github.com/)
-3. On the [GitHub website](https://github.com/open-csd/sandbox/), create a fork of the open-csd/sandbox repo
-4. In the Desktop app:
+## Fork and clone the repo
+
+1. On the [GitHub website](https://github.com/open-csd/sandbox/), create a fork of the open-csd/sandbox repo
+2. In the Desktop app:
    - Login to GitHub
    - Click on "Clone a Repository from the Internet"
    - Select the URL tab
    - Specify the username/repository as _[your-username]/sandbox_
    - Specify the local path as the folder on your computer where you want the repo to live
    - Click "Clone"
+
 
 ## Task 1: Add an intro file
 1. Go to the _sandbox_ repo on your computer
