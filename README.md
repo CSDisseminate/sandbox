@@ -43,8 +43,8 @@ Repo for new users to try out different GitHub actions
    - In the GitHub Desktop app:
       - Click on "Branch" in the top menu and select "Create Pull Request"
          - The pull request form will launch in the browser, where you can review your changes, write a summary, and request someone to review your changes
-   - In the browser:      
-         - Fill in the details, request elainekearney or micah-hirsch to reivew your request, and click "Create pull request"
-            - This will send an email to the reviewer, who will check the changes and then approve them or suggest additional edits
+   - In the browser:
+      - Fill in the details, request elainekearney or micah-hirsch to reivew your request, and click "Create pull request"
+         - This will send an email to the reviewer, who will check the changes and then approve them or suggest additional edits
       -    Once approved, merge the changes and delete the "edit-figure" branch
 
